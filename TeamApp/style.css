@@ -21,6 +21,7 @@ body{
     background-color: rgb(39, 38, 38);
     color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 15rem;
 }
 .album{
     font-size: smaller;
