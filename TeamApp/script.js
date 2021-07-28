@@ -19,7 +19,7 @@ function playButtonClicked(event){
     }
     let playeditems=document.getElementsByClassName('played-items')[0]
     var playedRowfull=document.createElement('div')
-    playedRowfull.classList.add("card p-2 m-3")
+    playedRowfull.classList.add("card","p-2", "m-3")
     var playedrowhtml=`<img src="${imageSrc}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="played-card-title">${Title}</h5>
